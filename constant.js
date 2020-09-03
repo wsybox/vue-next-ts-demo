@@ -1,6 +1,6 @@
 const path = require('path')
 
-const _ = {
+const $ = {
   proxyUrl: 'http://localhost:3000',
   title: 'Vue3.0+Typescript 快速开框架',
   isDev: process.env.NODE_ENV !== 'production',
@@ -11,6 +11,6 @@ const _ = {
   shouldOpenAnalyzer: false, // 是否开启 bundle 包分析
 }
 
-_.projectName = path.parse(_.projectPath).name
+$.projectName = path.parse($.projectPath).name
 
-module.exports = _
+module.exports = $

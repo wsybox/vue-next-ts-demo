@@ -1,3 +1,5 @@
+vue.config.js
+constant.js
 .eslintrc.js
 /node_modules
 /build
